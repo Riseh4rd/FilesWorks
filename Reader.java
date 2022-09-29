@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Read_file {
+public class Reader1 {
     public byte[] read(String file) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(file));
 
